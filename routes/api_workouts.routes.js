@@ -19,6 +19,6 @@ router.delete("/:id", deleteWorkoutJSON);
 router.put("/:id", editWorkoutJSON);
 router.post("/:id/save", saveWorkoutJSON);
 router.delete("/:id/unsave", unsaveWorkoutJSON);
-router.post("/:id/complete", completeAWorkoutJSON);
+router.post("/:id/complete", completeAWorkoutJSON); // need to create a field in users table to store completed workouts??
 
 module.exports = router;
